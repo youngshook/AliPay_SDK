@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'AliPay_SDK', :exclusive => true do
+  pod "AliPay_SDK", :path => "../"
+
+  
+end
