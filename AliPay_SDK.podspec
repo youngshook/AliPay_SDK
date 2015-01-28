@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
                        * AliPay SDK 2.0.0 for iOS.
                        DESC
   s.homepage         = "https://b.alipay.com/newIndex.htm"
+  s.license          = { "type": "Copyright","text": "支付宝(中国)网络技术有限公司  版权所有." }
   s.author           = { "AliPay" => "https://www.alipay.com/" }
-  s.source           = { :git => "git@youngshook.github.com:youngshook/AliPay_SDK.git", :tag => s.version.to_s }
-  s.license          = 'AliPay'
+  s.source           = { :git => "https://github.com/youngshook/AliPay_SDK.git", :tag => s.version.to_s }
   s.platform     = :ios, '5.0'
   s.requires_arc = true
   s.resources = 'AlipaySDK.bundle'
